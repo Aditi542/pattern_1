@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i;
+    cout<<"Enter a number :";
+    cin>>i;
+    for(int row=1;row<=i;++row)
+    {
+        for(int c=1;c<=row;++c)
+        cout<<'*';
+        cout<<endl;
+    }
+}
